@@ -9,7 +9,7 @@ title = "Real-Time Water Maps"
 summary = "A project from my days at the USGS"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project/realtime-ia-map.png"
+image_preview = "project/realtime-ia-map-screenshot.png"
 
 # Tags: can be used for filtering projects.
 tags = ["code", "water", "nitrate", "groundwater", "javascript"]

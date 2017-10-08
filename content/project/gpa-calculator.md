@@ -9,7 +9,7 @@ title = "GPA Calculator"
 summary = "A project from my days at the University of Iowa"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project/gpa-calculator.png"
+image_preview = "project/gpa-calculator-screenshot.png"
 
 # Tags: can be used for filtering projects.
 tags = ["code", "gpa", "calculator", "javascript"]
