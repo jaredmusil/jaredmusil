@@ -1,21 +1,21 @@
 +++
 # Date this page was created.
-date = "2014-04-27"
+date = "2016-03-04"
 
 # Project title.
-title = "GPA Calculator"
+title = "BDD Toolbox"
 
 # Project summary to display on homepage.
-summary = "A project from my days at the University of Iowa"
+summary = "An app to create, manage, run, and report on BDD tests"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project/gpa-calculator.png"
+image_preview = "project/bdd-toolbox.png"
 
 # Tags: can be used for filtering projects.
-tags = ["code", "gpa", "calculator", "javascript"]
+tags = ["app", "bdd", "python", "jbehave"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/jaredmusil/gpa-calculator"
+external_link = "https://github.com/jaredmusil/bdd-toolbox"
 
 # Does the project detail page use math formatting?
 math = false

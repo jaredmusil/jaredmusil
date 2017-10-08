@@ -43,9 +43,11 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   #email = "email@domain.com"
-  #address = "ADDRESS"
+  linkedin = "jaredmusil"
+  github = "jaredmusil"
+  #address = "address"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
+  #phone = "888 888 88 88"
   #skype = ""
   #telegram = ""
 
@@ -175,11 +177,6 @@ defaultContentLanguageInSubdir = false
 #  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 4
-
-[[menu.main]]
-  name = "Skills"
-  url = "#skills"
-  weight = 5
 
 [[menu.main]]
   name = "Contact"

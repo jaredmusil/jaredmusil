@@ -28,6 +28,10 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
+
+[[filter]]
+  name = "App"
+  tag = ".app"
   
 [[filter]]
   name = "Code"
