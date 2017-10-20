@@ -11,7 +11,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "WQ2GWN8"
+googleAnalytics = "UA-47998709-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -152,7 +152,7 @@ defaultContentLanguageInSubdir = false
     icon = "linkedin"
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/jaredmusil/"
-  
+
   #[[params.social]]
   #  icon = "google-scholar"
   #  icon_pack = "ai"
@@ -172,7 +172,7 @@ defaultContentLanguageInSubdir = false
   name = "Projects"
   url = "#projects"
   weight = 2
-  
+
 #[[menu.main]]
 #  name = "Publications"
 #  url = "#publications_selected"
