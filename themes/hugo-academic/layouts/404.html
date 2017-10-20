@@ -12,8 +12,8 @@
   </ul>
   {{ end }}
 
-  <h2>Recent Publications</h2>
-  {{ range last 20 (where .Data.Pages "Section" "=" "publication") }}
+  <h2>Recent Projects</h2>
+  {{ range last 20 (where .Data.Pages "Section" "=" "projects") }}
   <ul>
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   </ul>
