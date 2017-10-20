@@ -1,7 +1,7 @@
 +++
 title = "Add Line Breaks"
 date = 2017-10-19T23:50:23-05:00
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -13,11 +13,8 @@ categories = ["code"]
 [header]
 image = ""
 caption = ""
-
 +++
 
-
-`r library("shiny")`
 
 # How to break lines at a specific character in Notepad++
 
@@ -59,5 +56,3 @@ To do this, lets add lines breaks after the `],` characters:
 Now the text file is easy to read and edit.
 
 Happy Coding!
-
-`r includeMarkdown("../../footer_article.Rmd")`
