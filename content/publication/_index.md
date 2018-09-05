@@ -8,7 +8,8 @@ highlight = false
 #   0 = Simple
 #   1 = Classic
 #   2 = Detailed
-list_format = 0
+list_format = 2
+
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

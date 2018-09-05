@@ -15,7 +15,7 @@ image_preview = "project/tri.png"
 tags = ["app", "test", "python", "tkinter", "java"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/jaredmusil/testlink-results-importer"
+external_link = "https://github.com/jaredmusil/tri"
 
 # Does the project detail page use math formatting?
 math = false
