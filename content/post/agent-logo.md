@@ -15,12 +15,9 @@ image = ""
 caption = ""
 +++
 
-
-`r library("shiny")`
-
 The story of the State Farm agent is one of the greatest business partnership of the past decade. Almost half of our customers interact exclusively with our knowlegable and dedicated agents. As a member of systems, I often have a hard time wrapping my head around exactly how far reaching our agency network is. So to peak my curiousity I dicided to scrape some agent data from statefarm.com and plot the corporate logo with each data point corresponding to a single agent. I hope you enjoy it as much as I did creating it.
 
-```{r echo=FALSE, message=FALSE}
+```r
 # clear workspace
 rm(list = ls())
 
@@ -137,7 +134,6 @@ temp$cols = add_cols(temp[,6:8])
 
 final = temp[sample(1:nrow(temp), agent_count),]
 
-
 #### generate plot ####
 
 plot_func(final)
@@ -145,5 +141,3 @@ plot_func(final)
 ```
 
 The full resolution image can be downloaded [here]("agents.png"), and the script [here]("agents.R").
-
-`r includeMarkdown("../../footer_article.Rmd")`
