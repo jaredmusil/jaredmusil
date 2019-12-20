@@ -6,7 +6,7 @@ date = "2015-01-12"
 title = "Timecard"
 
 # Project summary to display on homepage.
-summary = "It's not exciting, but use it get paid faster."
+summary = "A simple UI to pre-populate timecard info, and then populate and submit it via selenium webdriver."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "project/timecard.png"
