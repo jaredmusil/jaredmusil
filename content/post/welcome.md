@@ -4,15 +4,13 @@ lastmod = 2017-10-08T18:01:37+00:00
 draft = false
 tags = ["blog"]
 title = "Welcome"
-math = true
+math = false
 summary = """
 """
 
 [header]
-image = "headers/atlanta-a.jpg"
+image = "headers/atlanta-1.jpg"
 +++
-
-# Blog
 
 A blog to discuss interesting technologies and projects that I encounter.
 
