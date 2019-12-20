@@ -3,22 +3,25 @@
 
 {{ partial "header_image.html" . }}
 
-<div class="universal-wrapper">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ .Title | default (i18n "posts") }}</h1>
 
-  <h1>{{ .Title | default (i18n "posts") }}</h1>
+      {{ with .Content }}
+      <div class="article-style" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
 
-  {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
-  {{ end }}
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+        {{ $params := dict "post" . }}
+        {{ partial "post_li" $params }}
+      {{ end }}
 
-  {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
-    {{ $params := dict "post" . }}
-    {{ partial "post_li" $params }}
-  {{ end }}
-
-  {{ partial "pagination" . }}
-
+      {{ partial "pagination" . }}
+    </div>
+  </div>
 </div>
+
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}
