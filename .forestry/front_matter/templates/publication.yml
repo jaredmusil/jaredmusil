@@ -1,0 +1,68 @@
+---
+label: Publication
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: publication_types
+  label: publication_types
+- type: text
+  name: publication
+  label: publication
+- type: text
+  name: publication_short
+  label: publication_short
+- type: text
+  name: abstract
+  label: abstract
+- type: text
+  name: abstract_short
+  label: abstract_short
+- type: boolean
+  name: math
+  label: math
+- type: boolean
+  name: highlight
+  label: highlight
+- type: text
+  name: image_preview
+  label: image_preview
+- type: boolean
+  name: selected
+  label: selected
+- type: text
+  name: url_pdf
+  label: url_pdf
+- type: text
+  name: url_code
+  label: url_code
+- type: text
+  name: url_dataset
+  label: url_dataset
+- type: text
+  name: url_project
+  label: url_project
+- type: text
+  name: url_slides
+  label: url_slides
+- type: text
+  name: url_video
+  label: url_video
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: image
+    label: image
+  - type: text
+    name: caption
+    label: caption
