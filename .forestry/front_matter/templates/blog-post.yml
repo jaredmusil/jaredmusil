@@ -27,3 +27,8 @@ fields:
   - type: file
     name: image
     label: image
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: caption
