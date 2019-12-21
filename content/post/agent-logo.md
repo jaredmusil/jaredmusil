@@ -15,7 +15,7 @@ image = ""
 caption = ""
 +++
 
-The story of the State Farm agent is one of the greatest business partnership of the past decade. Almost half of our customers interact exclusively with our knowlegable and dedicated agents. As a member of systems, I often have a hard time wrapping my head around exactly how far reaching our agency network is. So to peak my curiousity I dicided to scrape some agent data from statefarm.com and plot the corporate logo with each data point corresponding to a single agent. I hope you enjoy it as much as I did creating it.
+Lets generate a composite image of the State Farm logo where each point is represented by an individual agent. This was pretty fun to make and I hope you enjoy it as much as I did creating it. It is pretty simple to swap out the image for something else so feel free to fork and adapt the script for your needs. For now, this agent number is hardcoded, but perhaphs in a future post I will update it with a script to scrape the agents names off the .com website.
 
 ```r
 # clear workspace
