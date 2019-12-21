@@ -1,0 +1,25 @@
+---
+label: Project
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summary
+  label: summary
+- type: file
+  name: image_preview
+  label: image_preview
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: external_link
+  label: external_link
+- type: boolean
+  name: math
+  label: math
