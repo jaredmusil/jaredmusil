@@ -50,5 +50,4 @@ url_video = ""
 [header]
 image = ""
 caption = ""
-
 +++
