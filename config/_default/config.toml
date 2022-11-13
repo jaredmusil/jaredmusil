@@ -1,0 +1,30 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://nunocoracao.github.io/blowfish/docs/getting-started/
+
+theme = "blowfish"
+baseURL = "https://jaredmusil.com/"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 20
+summaryLength = 30
+
+buildDrafts = false
+buildFuture = false
+
+googleAnalytics = "UA-47998709-1"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
