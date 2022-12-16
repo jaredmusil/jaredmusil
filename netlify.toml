@@ -1,12 +1,10 @@
 # netlify.toml
 
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b $URL"
+  command = "hugo mod get -u && hugo --gc --minify -b jaredmusil.com"
   publish = "public"
 
 [build.environment]
-  HUGO_THEMESDIR = "../.."
-  HUGO_THEME = "blowfish"
   NODE_ENV = "production"
   GO_VERSION = "1.16"
   TZ = "UTC"  # Set to preferred timezone
