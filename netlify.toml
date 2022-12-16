@@ -5,6 +5,8 @@
   publish = "public"
 
 [build.environment]
+  HUGO_THEMESDIR = "../.."
+  HUGO_THEME = "repo"
   NODE_ENV = "production"
   GO_VERSION = "1.16"
   TZ = "UTC"  # Set to preferred timezone
