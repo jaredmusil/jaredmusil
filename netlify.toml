@@ -6,7 +6,7 @@
 
 [build.environment]
   HUGO_THEMESDIR = "../.."
-  HUGO_THEME = "repo"
+  HUGO_THEME = "blowfish"
   NODE_ENV = "production"
   GO_VERSION = "1.16"
   TZ = "UTC"  # Set to preferred timezone
