@@ -15,7 +15,7 @@ dateFormat = "1 January 2020"
 [author]
   name = "Jared Musil"
   image = "img/jared-musil.jpg"
-  headline = "Software Engineer @ State Farm"
+  headline = "Software Engineer"
   bio = "Hacker, Hawkeye, Entrepreneur"
   links = [
     { linkedin = "https://linkedin.com/in/username" },
