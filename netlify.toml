@@ -1,5 +1,5 @@
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b http://jaredmusil.com"
+  command = "hugo mod get -u && hugo --gc --minify -b http://www.jaredmusil.com"
   publish = "public"
 
 [build.environment]
