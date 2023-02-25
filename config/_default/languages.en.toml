@@ -15,11 +15,11 @@ dateFormat = "1 January 2020"
 [author]
   name = "Jared Musil"
   image = "img/jared-musil.jpg"
-  headline = "Software Engineer @ State Farm"
+  headline = "Software Engineer"
   bio = "Hacker, Hawkeye, Entrepreneur"
   links = [
-    { linkedin = "https://linkedin.com/in/username" },
-    { github = "https://github.com/username" },
+    { linkedin = "https://linkedin.com/in/jaredmusil" },
+    { github = "https://github.com/jaredmusil" },
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://jaredmusil.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },

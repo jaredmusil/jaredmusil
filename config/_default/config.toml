@@ -30,3 +30,6 @@ googleAnalytics = "UA-47998709-1"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  
+[params]
+    date_format = "02 Jan 2006"
