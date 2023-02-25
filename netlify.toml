@@ -13,3 +13,7 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.104.1"
+
+# Disable "Asset Optimization"
+[build.processing]
+	skip_processing = true
